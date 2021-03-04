@@ -36,6 +36,6 @@ You also need to specity a `PASSWORD` and a `GIT_REPO` to clone in your environm
    RUN sudo apt-get install -y nodejs
    ```
 
-1. Head back to Railway and notice how there is a new deployment. After it is done, you can use these tools in your environment.
+1. Head back to Railway and notice a new deployment was created. After it has completed, you can use these tools in your environment.
 
 1. (Optional): [Configure rclone](https://github.com/bpmct/deploy-code-server/tree/main/deploy-container#-persist-your-filesystem-with-rclone) so that you can save your VS Code config and files without commiting
