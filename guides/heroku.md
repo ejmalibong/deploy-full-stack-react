@@ -8,7 +8,7 @@ Launch code-server on Heroku to get on-demand dev environments that turn off whe
 
 ## Step 1: Click to deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/cdr/deploy-code-server)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ejmalibong/deploy-full-stack-react)
 
 ---
 
@@ -26,7 +26,7 @@ After it has built, you can access it by pressing "View" or "Open app."
 
 <img src="../img/modify-github-template.png" alt="Modify GitHub template" width="600" />
 
-Press the button in the top right of the repo, or or click to [use this template](https://github.com/bpmct/deploy-code-server/generate).
+Press the button in the top right of the repo, or or click to [use this template](https://github.com/ejmalibong/deploy-full-stack-react/generate).
 
 ## Step 4: Set up automatic builds with this repo
 
@@ -49,7 +49,7 @@ Press the button in the top right of the repo, or or click to [use this template
 
 1. Head back to Heroku and notice a new deployment has started. After it has completed, you can use these tools in your environment.
 
-1. (Optional): [Configure rclone](https://github.com/cdr/deploy-code-server/tree/main/deploy-container#-persist-your-filesystem-with-rclone) so that you can save your VS Code config and files without commiting
+1. (Optional): [Configure rclone](https://github.com/ejmalibong/deploy-full-stack-react/tree/main/deploy-container#-persist-your-filesystem-with-rclone) so that you can save your VS Code config and files without commiting
 
 See the [deploy-container README](../deploy-container) for other config vars for your environment.
 

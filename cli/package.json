@@ -1,8 +1,8 @@
 {
-  "name": "@coder/deploy-code-server",
+  "name": "@stello/deploy-full-stack-react",
   "version": "0.1.0",
-  "repository": "cdr/deploy-code-server",
-  "homepage": "https://github.com/cdr/deploy-code-server",
+  "repository": "ejmalibong/deploy-full-stack-react",
+  "homepage": "https://github.com/ejmalibong/deploy-full-stack-react",
   "description": "CLI to deploy code-server",
   "main": "bin/index.js",
   "bin": "bin/index.js",
@@ -12,7 +12,7 @@
     "prepare": "yarn build"
   },
   "keywords": ["code-server", "coder"],
-  "author": "coder",
+  "author": "Stello",
   "publishConfig": {
     "access": "public"
   },

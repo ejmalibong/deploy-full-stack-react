@@ -2,7 +2,7 @@
 
 START_DIR="${START_DIR:-/home/coder/project}"
 
-PREFIX="deploy-code-server"
+PREFIX="stello"
 
 mkdir -p $START_DIR
 

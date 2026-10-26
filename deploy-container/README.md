@@ -7,7 +7,7 @@ An container image built for deploying code-server.
 - [Deploy on Railway](../guides/railway.md)
 - [Deploy on Heroku](../guides/heroku.md)
 
-Docker Hub: `bencdr/code-server-deploy-container`
+Docker Hub: `stello/code-server-deploy-container`
 
 To run the container locally, you can use:
 
@@ -17,7 +17,7 @@ docker run -p 127.0.0.1:8080:8080 \
   -u "$(id -u):$(id -g)" \
   -e "DOCKER_USER=$USER" \
   -e "PASSWORD=12345" \
-  -it bencdr/code-server-deploy-container:latest
+  -it stello/code-server-deploy-container:latest
 ```
 
 ## Modifying your code-server environment
